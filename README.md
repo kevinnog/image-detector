@@ -1,13 +1,13 @@
 <h1 align="center">
-    <img alt="selfDrivingAI" title="#selfDrivingAI" src="git/TOBIAS9000.png" width="250px" />
+    <img alt="ImageDetector" title="#ImageDetector" src="git/TOBIAS9000.png" width="250px" />
 </h1>
 
 <h4 align="center"> 
-	Self Driving AI
+	Image Detector
 </h4>
 
 <p align="center">
-  <a href="#-project">Self Driving AI</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Image Detector</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>
@@ -15,14 +15,17 @@
 
 ## 💻 Project
 
-Simple AI example built with OpenCV.
+Simple AI examples to detect diferent objects.
+The smile detector and the self driving app were created using OpenCV and haarcascade files to train the detector.
+The image classifier was created using tensorflow to train a neural network.
 
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
 
-- [Python][python]
+- [Tensorflow][tensorflow]
 - [OpenCV][opencv]
+- [Numpy][numpy]
 
 ## :information_source: How To Use
 
@@ -35,10 +38,10 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone git@github.com:brain-ag/self-driving-ai.git
+$ git clone git@github.com:brain-ag/image-detector.git
 
 # Go into the repository
-$ cd self-driving-ai
+$ cd image-detector
 
 # Create the virtual env folder
 $ mkdir venv_dir
@@ -68,3 +71,5 @@ $ python self-driving.py
 [yarn]: https://yarnpkg.com/
 [pip]: https://pypi.org/project/pip/
 [opencv]: https://opencv.org/
+[tensorflow]: https://www.tensorflow.org/
+[numpy]: https://numpy.org/

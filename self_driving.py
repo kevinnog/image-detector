@@ -2,8 +2,8 @@ import cv2
 
 video = cv2.VideoCapture('video.mp4')
 
-car_tracker = cv2.CascadeClassifier("car_detector.xml")
-pedestrians_tracker = cv2.CascadeClassifier("pedestrians.xml")
+car_tracker = cv2.CascadeClassifier("assets/car_detector.xml")
+pedestrians_tracker = cv2.CascadeClassifier("assets/pedestrians.xml")
 
 while True:
     read_successful, frame = video.read()
